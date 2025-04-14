@@ -74,6 +74,7 @@ body {
 .bento {
  display: grid;
  gap: var(--space-s);
+
  max-width: 1200px;
  grid-template-columns: 1fr;
  grid-template-areas:
@@ -122,7 +123,8 @@ body {
 
 .schedule {
  grid-area: schedule;
- background-color: var(--clr-yellow--muted);
+ background-color: var(--clr-Yellow--muted);
+ box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
  align-content: center;
  img {
    width: 200px;
@@ -136,6 +138,7 @@ body {
  color: var(--clr-white);
  background-color: var(--clr-purple);
  text-align: center;
+ box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
  h2 {
    font-size: var(--fs-4);
  }
@@ -149,6 +152,7 @@ body {
  background-color: var(--clr-purple--muted);
  text-align: center;
  align-content: center;
+ box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
  img {
    margin-inline: auto;
  }
@@ -161,7 +165,8 @@ body {
 }
 .content {
  grid-area: content;
- background-color: var(--clr-yellow);
+ background-color: var(--clr-Yellow);
+ box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
  @media screen and (min-width: 768px) {
    align-content: space-between;
  }
@@ -169,6 +174,7 @@ body {
 .multiple {
  grid-area: multiple;
  background-color: var(--clr-white);
+box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
  @media screen and (min-width: 768px) {
    img {
      max-width: 300px;
@@ -186,6 +192,7 @@ body {
    font-size: var(--fs-4);
    font-weight: 500;
  }
+ box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
  img {
    width: 200px;
    @media screen and (min-width: 768px) {
@@ -196,7 +203,8 @@ body {
 .consistency {
  grid-area: consistency;
  padding-block-end: 0;
- background-color: var(--clr-yellow);
+ background-color: var(--clr-Yellow);
+ box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
  img {
    width: 250px;
    @media screen and (min-width: 768px) {
@@ -208,6 +216,7 @@ body {
  grid-area: followers;
  place-items: center;
  background-color: var(--clr-purple);
+ box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
  color: var(--clr-white);
  h2 {
    text-align: center;
